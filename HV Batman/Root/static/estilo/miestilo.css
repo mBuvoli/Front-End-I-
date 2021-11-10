@@ -1,0 +1,73 @@
+
+.foto
+{ 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110;
+height: 145.37px;
+    position: relative;
+    
+}
+
+.TITULO
+{
+    text-align: center;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    font-style: normal;
+    color: #9E4244;
+    background: #eabfb9;
+    padding:16px
+
+
+}
+
+.datospersonales
+{
+    text-align: left;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    font-style: normal;
+    color: #9E4244;
+    background: #eabfb9;
+    height: 30px
+    }
+
+.listas
+{
+    text-align: left;
+    font-family:'Times New Roman';
+    font-weight:400;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    list-style-type: none;
+    padding-inline-start: 20px
+ }
+ .uls
+ ul {
+    margin-top: 30px;
+    padding-inline-start: 100px;
+ }
+.margen
+ {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+    margin: 0;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+}
+.banne1r{
+  { padding-block: 20px;
+    background-size: cover;
+    background-position: center;
+}
