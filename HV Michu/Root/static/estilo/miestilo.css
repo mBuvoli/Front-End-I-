@@ -18,15 +18,28 @@ height: 145.37px;
     font-size: 35px;
     position: relative;
     font-style: normal;
-    color:#005677;
-    background:#C4C4C4;
+    color: #9E4244;
+    background: #eabfb9;
     padding:16px;
     margin: 0%;
     white-space: pre-wrap;
 
-
 }
 
+.TITULO2
+{
+    text-align: center;
+    font-family:'Times New Roman';
+    
+       position: relative;
+    font-style: normal;
+    color: #9E4244;
+    background: #eabfb9;
+    padding:16px;
+    margin: 0%;
+    white-space: pre-wrap;
+
+}
 .datospersonales
 {
     text-align: left;
@@ -35,8 +48,8 @@ height: 145.37px;
     font-size: 20px;
     position: relative;
     font-style: normal;
-    color:#005677;
-    background:#C4C4C4;
+    color: #9E4244;
+    background: #eabfb9;
     height: 30px;
     white-space: pre-wrap;
     }
@@ -67,10 +80,10 @@ height: 145.37px;
 }
 
 .banner {
-    background-color:#E5E5E5 ;
+    background-image: url(../img/banner.jpg);
 }
-.banne1r{
-   padding-block: 20px;
+.banner1
+  { padding-block: 20px;
     background-size: cover;
     background-position: center;
 }
@@ -80,12 +93,10 @@ height: 145.37px;
     font-family:'Times New Roman';
     font-weight: 700;
     font-size: 20px;
-       font-style: normal;
-       color: #FFFFFF;
-       background:#005677;
+   font-style: normal;
+    color: white;
+    background: #eabfb9;
     
 
     }
-.row{
-    align-items: flex-start;
-}
+    
