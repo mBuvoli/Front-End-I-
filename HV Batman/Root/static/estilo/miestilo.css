@@ -18,9 +18,11 @@ height: 145.37px;
     font-size: 35px;
     position: relative;
     font-style: normal;
-    color: #9E4244;
-    background: #eabfb9;
-    padding:16px
+    color:#005677;
+    background:#C4C4C4;
+    padding:16px;
+    margin: 0%;
+    white-space: pre-wrap;
 
 
 }
@@ -33,9 +35,10 @@ height: 145.37px;
     font-size: 20px;
     position: relative;
     font-style: normal;
-    color: #9E4244;
-    background: #eabfb9;
-    height: 30px
+    color:#005677;
+    background:#C4C4C4;
+    height: 30px;
+    white-space: pre-wrap;
     }
 
 .listas
@@ -64,10 +67,25 @@ height: 145.37px;
 }
 
 .banner {
-    background-image: url(../img/banner.jpg);
+    background-color:#E5E5E5 ;
 }
 .banne1r{
-  { padding-block: 20px;
+   padding-block: 20px;
     background-size: cover;
     background-position: center;
+}
+.footer
+{
+    text-align: center;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+       font-style: normal;
+       color: #FFFFFF;
+       background:#005677;
+    
+
+    }
+.row{
+    align-items: flex-start;
 }
