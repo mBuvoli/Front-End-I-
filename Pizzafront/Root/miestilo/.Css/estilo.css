@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100vh;
+    
+}
+
+body {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header
+{
+position: absolute;
+display:flex;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+background: #222222;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menuheader
+{
+    font-family:'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+ color: #F3F3F3;
+ display: flex;
+ align-items: center;
+ gap:13px;
+ list-style: none;
+
+
+}
+.pizzalogo
+{
+position: absolute;
+width: 234px;
+height: 80px;
+left: 20px;
+top: 10px;
+padding-left: 40px;
+}
+
+
+.main {
+    margin: 35px 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top:50px;
+}
+.promopizza
+ {
+    width: 800px;
+    height: auto;
+    background-image: url(../img/delivery.png);
+    border-radius: 5px;
+}
+.enviogratis
+ {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 20px 0 0 20px;
+    color:#FC200C;
+
+}
+.blanco
+{
+    color:white
+}
+.promopodio
+ {
+    width: 490px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.podio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.infopodio {
+    display: flex;
+    flex-direction: column;
+    margin-right: 101px;
+}
+.titulopodio {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+.sabores {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+   
+}
+
+.promo1 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/delivery.png); background-repeat: no-repeat; 
+    border-radius: 5px;
+    background-size: cover;
+    
+}
+
+.promo2 {
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer
+{
+width: 100%;
+display: flex;
+height: 150px;
+background-color:#222222;
+justify-content: space-between;
+align-items: center;
+padding: 20px 20px;
+}
+.footer__menu 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.footerlogo
+{
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    left: 20px;
+    top: 5px;
+    padding-left: 40px;
+    padding-top: 40px;
+    }
