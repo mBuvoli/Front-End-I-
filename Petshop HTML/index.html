@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Root/static/css/estilo.css">
+    <title>Petshop_de_michu</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- sección de barras-->
+        <div class="barranegra">
+            <!-- sección barra negra-->
+            <p>Grandes ofertas en comederos</p>
+            <div>
+                <select>
+                    <!--dropdown-->
+                    <option>Español </option>
+                </select>
+                <select>
+                    <option>ARG$ </option>
+                </select>
+            </div>
+        </div>
+        <div class="barranaranja">
+            <img class="logo" src="./Root/static/img/Logocatanddog.png">
+            <nav>
+                <ul class="nav">
+                    <li><a class="a" href="">Categorías</a></li>
+                    <li><a class="a" href="">Pets</a></li>
+                    <li><a class="a" href="">Nosotros</a></li>
+                    <li><a class="a" href="">Contactanos</a></li>
+
+
+
+                </ul>
+            </nav>
+        </div> <!-- sección de naranja-->
+
+    </header>
+    <main>
+        <section class="seccionmain">
+            <div class="wrapper">
+                <div class="mainbox">
+
+                    <p>¡Es un placer tenerte aquí! </p>
+
+                </div>
+                <!--Corregir las propiedades del texto aqui-->
+                <div class="comederos">
+                    <p>¡Comederos en descuento!</p>
+                    <div>
+                        <button class="botoncomedero">
+                            <a class="a" href=""><span>COMEDEROS </span></a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--SECCION PRODUCTOS DESTACADOS-->
+        <section class="destacados">
+            <!--PRODUCTOS DESTACADPS+NAVBAR-->
+            <img class="paw" src="./Root/static/img/pawprint 1.png">
+            <h1 class="prods">Productos Destacados</h1>
+            <nav>
+                <ul class="pawnav">
+                    <li><a class="p3" href="">Comederos</a></li>
+                    <li><a class="p3" href="">Accesorios</a></li>
+                    <li><a class="p3" href="">Comida</a></li>
+                </ul>
+            </nav>
+
+            <section class="cartas">
+                <!--CARDS-->
+                <div class="churrasquito">
+                    <a href="">
+                        <div class="contenedor">
+
+                            <h4><b>Juguete Churrasquito</b></h4>
+                            <p class="naranja">$150</p>
+
+
+                        </div>
+                    </a>
+                </div>
+                <div class="comedero">
+                    <a href="">
+                        <div class="contenedor">
+
+                            <h4><b>Comedero para perro</b></h4>
+                            <p class="naranja">$250</p>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="huesito">
+                    <a href="">
+                        <div class="contenedor">
+                            <h4><b>Juguete Huesito</b></h4>
+                            <p class="naranja">$650</p>
+
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+        </section>
+
+        <section class="placeholder">
+            <h1 class="contacto">Contáctanos</h1>
+    
+        </section>
+    </main>
+
+    
+
+    <!--CONTACTANOS-->
+    <section class="contactanos">
+        <div >
+           
+           
+
+        </div>
+
+        
+        <!--INPUT DE NOMBRE-->
+        <div class="ubicacion">
+            <form action="submeter-formulario.php" method="post">
+                <p>
+                    <label for="nombre" class="colocar_nombre">
+                        <span class="obligatorio"></span>
+                    </label>
+                    <input class="barrasformulario" type="text" name="introducir_nombre" id="nombre"
+                        required="obligatorio" placeholder="Nombre y Apellido">
+                </p>
+                <p>
+                    <!--INPUT DE EMAIL-->
+                    <label for="email" class="colocar_email">
+                        <span class="obligatorio"></span>
+                    </label>
+                    <input class="barrasformulario" type="email" name="introducir_email" id="email"
+                        required="obligatorio" placeholder="Ingresá tu correo electrónico">
+                </p>
+
+                <p>
+                    <!--TETELELEFOFONO-->
+                    <label for="telefone" class="colocar_telefono">
+                    </label>
+                    <input class="barrasformulario" type="tel" name="introducir_telefono" id="telefono"
+                        placeholder="Teléfono">
+                </p>
+        </div>
+        <div class="botones">
+
+
+
+            <!--BOTONES-->
+
+            <button class="enviar" type="submit" name="enviar_formulario" id="enviar">
+                <p>Enviar</p>
+            </button>
+            <button class="resetear" type="submit" name="enviar_formulario" id="enviar">
+                <p>Resetear</p>
+            </button>
+
+        </div>
+        <p class="aviso">
+            <span class="obligatorio"></span> todos los campos son obligatorios.
+        </p>
+
+        </form>
+
+    </section>
+
+    <section>
+        <!--seccion suscribete-->
+        <div class="barrasus">
+            <form action="submeter-formulario.php" method="post"></form>
+            <p>
+                <!--INPUT DE EMAIL-->
+                <label for="email" class="colocar_email">
+                    <span class="obligatorio"></span>
+                </label>
+                <input class="suscribete" type="email" name="introducir_email" id="email" required="obligatorio"
+                    placeholder="Ingresá tu correo electrónico">
+            </p>
+            <button class="botonsus" type="submit" name="enviar_formulario" id="enviar">
+                <p>Suscribete</p>
+            </button>
+        </div>
+    </section>
+
+
+
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>
